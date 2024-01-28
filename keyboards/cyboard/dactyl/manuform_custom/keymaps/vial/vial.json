@@ -1,0 +1,186 @@
+{
+    "name": "Dactyl",
+    "vendorId": "0xFEED",
+    "productId": "0x0000",
+    "lighting": "vialrgb",
+    "customKeycodes": [
+      {
+          "name": "MD_Win",
+          "title": "Swap GUI and Alt",
+          "shortName": "Win"
+      },
+      {
+          "name": "MD_Mac",
+          "title": "Unswap GUI and Alt",
+          "shortName": "Mac"
+      },
+      {
+          "name": "MD_Game",
+          "title": "Disable GUI Key",
+          "shortName": "Game"
+      },
+      {
+          "name": "Debug",
+          "title": "VS Code Enable Debugging",
+          "shortName": "DBG"
+      },
+      {
+          "name": "Restart Debug",
+          "title": "VS Code Restart Debugging",
+          "shortName": "ReDBG"
+      },
+      {
+          "name": "Stop Debug",
+          "title": "VS Code Stop Debugging",
+          "shortName": "StDBG"
+      },
+      {
+          "name": "Shift Lock",
+          "title": "Lock shift key for alpha and minus (-)",
+          "shortName": "ShftLK"
+      },
+      {
+          "name": "iTerm Visor",
+          "title": "Ctrl+Alt+Cmd+Shft+T",
+          "shortName": "Term"
+      },
+      {
+        "name": "G LayerGuiTap",
+        "title": "Layer Tap and GUI Mod Tap for G",
+        "shortName": "GLTGT"
+      },
+      {
+        "name": "V LayerCtlTap",
+        "title": "Layer Tap and Control Mod Tap for V",
+        "shortName": "VLTCT"
+      }
+  ],
+    "matrix": {
+        "rows": 14,
+        "cols": 8
+    },
+    "layouts": {
+        "keymap":
+[
+  [
+    "5,5",
+    "5,4",
+    "5,3",
+    "5,2",
+    "5,1",
+    "5,0",
+    {
+      "x": 5.5
+    },
+    "12,0",
+    "12,1",
+    "12,2",
+    "12,3",
+    "12,4",
+    "12,5"
+  ],
+  [
+    "4,5",
+    "4,4",
+    "4,3",
+    "4,2",
+    "4,1",
+    "4,0",
+    {
+      "x": 5.5
+    },
+    "11,0",
+    "11,1",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,5"
+  ],
+  [
+    "3,5",
+    "3,4",
+    "3,3",
+    "3,2",
+    "3,1",
+    "3,0",
+    {
+      "x": 5.5
+    },
+    "10,0",
+    "10,1",
+    "10,2",
+    "10,3",
+    "10,4",
+    "10,5"
+  ],
+  [
+    "2,5",
+    "2,4",
+    "2,3",
+    "2,2",
+    "2,1",
+    "2,0",
+    {
+      "x": 5.5
+    },
+    "9,0",
+    "9,1",
+    "9,2",
+    "9,3",
+    "9,4",
+    "9,5"
+  ],
+  [
+    "1,5",
+    "1,4",
+    "1,3",
+    "1,2",
+    {
+      "x": 9.5
+    },
+    "8,2",
+    "8,3",
+    "8,4",
+    "8,5"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 4.5
+    },
+    "0,7",
+    "0,3",
+    {
+      "x": 4.5
+    },
+    "7,3",
+    "7,7"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 6.5
+    },
+    "0,2",
+    "0,1",
+    {
+      "x": 0.5
+    },
+    "7,1",
+    "7,2"
+  ],
+  [
+    {
+      "x": 6.5
+    },
+    "0,6",
+    "0,5",
+    {
+      "x": 0.5
+    },
+    "7,5",
+    "7,6"
+  ]
+]
+    }
+}
